@@ -1,14 +1,9 @@
 {
   "name": "deonchingwe-site",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build"
-  },
-  "dependencies": {
-    "next": "15.5.2",
-    "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "build": "node build.mjs"
   }
 }
