@@ -1,0 +1,11 @@
+# Render compatibility output
+out/
+
+# Generated site output rebuilt by build.mjs
+dist/index.html
+dist/*/index.html
+dist/robots.txt
+dist/sitemap.xml
+
+# Local noise
+.DS_Store
